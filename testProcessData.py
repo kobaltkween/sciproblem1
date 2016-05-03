@@ -13,16 +13,16 @@ from processData import DataProcessor
 class ProcessDataTest(unittest.TestCase):
     
     def setUp(self):
-        self.testData = json.dumps({1:  {"name": "John Doe", "birth": 1902, "death": 1941},
-                            2:  {"name": "Sue Simmons", "birth": 1912, "death": 1988},
-                            3:  {"name": "Jack Sprat", "birth": 1925, "death": 1976},
-                            4:  {"name": "Manny Mellmick", "birth": 1932, "death": 1998},
-                            5:  {"name": "Charles Chadwick", "birth": 1945, "death": 2014},
-                            6:  {"name": "Vance Vargas", "birth": 1952, "death": False},
-                            7:  {"name": "Tommy Thompson", "birth": 1916, "death": 2002},
-                            8:  {"name": "Raven Ronaldson", "birth": 1986, "death": False},
-                            9:  {"name": "Kasmir Kandahari", "birth": 1936, "death": 1999},
-                            10: {"name": "Jessica Jones", "birth": 1988, "death": False}})
+        self.testData = json.dumps({"John Doe": {"birth": 1902, "death": 1941},
+                            "Sue Simmons": {"birth": 1912, "death": 1988},
+                            "Jack Sprat": {"birth": 1925, "death": 1976},
+                            "Manny Mellmick": {"birth": 1932, "death": 1998},
+                            "Charles Chadwick": {"birth": 1945, "death": 2014},
+                            "Vance Vargas": {"birth": 1952, "death": False},
+                            "Tommy Thompson": {"birth": 1916, "death": 2002},
+                            "Raven Ronaldson": {"birth": 1986, "death": False},
+                            "Kasmir Kandahari": {"birth": 1936, "death": 1999},
+                            "Jessica Jones": {"birth": 1988, "death": False}})
         self.pd = DataProcessor(self.testData)
         
     
