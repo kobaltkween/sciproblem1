@@ -13,5 +13,5 @@ processData.py - Python module to process JSON data with the format {"Person Nam
 
 testProcessData.py - A unit tester for processData.py
 
-population.html - HTML5/D3.js display of 1900to2000.csv
+population.html - HTML5/D3.js display of 1900to2000.csv.  The call to D3.js is remote, and requires internet access.
 
