@@ -3,6 +3,8 @@
 processData.py
 This module reads people data from a JSON file and determines
 number of people alive per year and per decade.
+This is written in Python 3.  The data it creates won't have the correct
+form if compiled in Python 2.
 """
 import os
 import csv

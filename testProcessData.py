@@ -3,6 +3,8 @@
 @author: mboyd
 
 Test the yearCount and popCount methods of the processData module
+Both the test and the module are written in Python 3.  Using Python 2.7 
+will not work properly
 """
 import unittest
 import json
